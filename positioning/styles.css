@@ -1,0 +1,68 @@
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  color: rgb(243, 240, 236);
+}
+* {
+  box-sizing: inherit;
+  margin: 0;
+}
+.main-container {
+  position: relative;
+  left: 700px;
+  top: 150px;
+  padding: 2px;
+  border: 4px solid black;
+  float: left;
+  width: 500px;
+  height: 600px;
+}
+.one {
+  float: left;
+  background-color: black;
+  height: 20%;
+  width: 100%;
+  border: 2px solid white;
+  border-bottom: 0;
+}
+.two {
+  float: left;
+  background-color: black;
+  width: 100%;
+  height: 5%;
+  border: 2px solid white;
+}
+.three {
+  float: left;
+  display: inline-block;
+  background-color: black;
+  border: 2px solid white;
+  border-top: 0;
+  width: 30%;
+  height: 60%;
+}
+.four {
+  float: left;
+  display: inline-block;
+  background-color: black;
+  border: 2px solid white;
+  border-top: 0;
+  height: 60%;
+  width: 70%;
+}
+.five {
+  float: left;
+  background-color: black;
+  border: 2px solid white;
+  width: 100%;
+  height: 15%;
+}
+p {
+  font-size: 90px;
+  opacity: 0.4;
+}
+.menu {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+}
